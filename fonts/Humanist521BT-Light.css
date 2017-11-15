@@ -1,0 +1,13 @@
+
+@font-face {
+	font-family:'Humanist521BT-Light';
+	src: url('Humanist521BT-Light_gdi.eot');
+	src: url('Humanist521BT-Light_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Humanist521BT-Light_gdi.ttf') format('truetype'),
+		url('Humanist521BT-Light_gdi.otf') format('opentype'),
+		url('Humanist521BT-Light_gdi.svg#Humanist521BT-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2212;
+}

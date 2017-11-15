@@ -1,0 +1,14 @@
+
+@font-face {
+	font-family:'HelveticaNeueLTStd-CnO';
+	src: url('HelveticaNeueLTStd-CnO_gdi.eot');
+	src: url('HelveticaNeueLTStd-CnO_gdi.eot?#iefix') format('embedded-opentype'),
+		url('HelveticaNeueLTStd-CnO_gdi.woff') format('woff'),
+		url('HelveticaNeueLTStd-CnO_gdi.ttf') format('truetype'),
+		url('HelveticaNeueLTStd-CnO_gdi.otf') format('opentype'),
+		url('HelveticaNeueLTStd-CnO_gdi.svg#HelveticaNeueLTStd-CnO') format('svg');
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: condensed;
+	unicode-range: U+0020-25CA;
+}

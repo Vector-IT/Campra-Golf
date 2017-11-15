@@ -1,0 +1,14 @@
+
+@font-face {
+	font-family:'MyriadWebPro-Regular';
+	src: url('MyriadWebPro_gdi.eot');
+	src: url('MyriadWebPro_gdi.eot?#iefix') format('embedded-opentype'),
+		url('MyriadWebPro_gdi.woff') format('woff'),
+		url('MyriadWebPro_gdi.ttf') format('truetype'),
+		url('MyriadWebPro_gdi.otf') format('opentype'),
+		url('MyriadWebPro_gdi.svg#MyriadWebPro-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-F112;
+}
