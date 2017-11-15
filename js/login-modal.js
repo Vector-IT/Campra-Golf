@@ -387,7 +387,7 @@ $(function() {
                 mensaje+= "<br>Correo: " + $(this).find("#email").val();
                 mensaje+= "<br>Tel&eacute;fono: " + $(this).find("#telefono").val();
                 mensaje+= "<br>Tour: " + document.URL;
-                mensaje+= "<br>Estado: " + $(this).find("#provincia option:selected").text();
+                //mensaje+= "<br>Estado: " + $(this).find("#provincia option:selected").text();
                 mensaje+= "<br>Comentarios: " + $(this).find("#mensaje").val();
                 
                 mensaje+= "<br><br>";

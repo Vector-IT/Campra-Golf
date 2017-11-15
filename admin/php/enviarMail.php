@@ -10,7 +10,7 @@
 	
 		$titulo = $_POST['asunto'];
 		$mensaje = $_POST['mensaje'];
-		$mensajeAlt = $_POST['mensajeAlt'];
+		$mensajeAlt = (isset($_POST['mensajeAlt'])? $_POST['mensajeAlt']: '');
 		
 		if (isset($_POST['cco']))
 			$cco = $_POST['cco'];
@@ -24,19 +24,15 @@
 		$mail->CharSet = 'UTF-8';
 		$mail->setLanguage('es', 'language');
 		$mail->isSMTP();                                      // Set mailer to use SMTP
-		//$mail->Host = 'server.iconntravel.com.mx';            // Specify main and backup server
-		$mail->Host = 'smtp.mailanyone.net';            // Specify main and backup server
-		//$mail->Port = 25;                                    //Set the SMTP port number - 587 for authenticated TLS
-		$mail->Port = 587;                                    //Set the SMTP port number - 587 for authenticated TLS
-		$mail->SMTPAuth = true;                               // Enable SMTP authentication
-		//$mail->Username = 'consultasweb@iconntravel.com.mx';  // SMTP username
-		$mail->Username = 'consultasweb@iconnservices.com.mx';  // SMTP username
-		//$mail->Password = 'Vectorit23';               		  // SMTP password
-		$mail->Password = 'C0nsult@s-16';               		  // SMTP password
-		//$mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
-		$mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
-		//$mail->setFrom('consultasweb@iconntravel.com.mx', 'Iconn Travel');     //Set who the message is to be sent from
-		$mail->setFrom('consultasweb@iconnservices.com.mx', 'Iconn Travel');     //Set who the message is to be sent from
+
+		$mail->Host = 'smtp.gmail.com';
+		$mail->SMTPAuth = true;
+		$mail->SMTPSecure = 'tls';
+		$mail->Port = 587;
+		$mail->Username = 'info@campragolf.com';
+		$mail->Password = 'Montevideo635';
+		$mail->setFrom('info@campragolf.com', 'Campra Golf');
+		$mail->addReplyTo("info@campragolf.com","Campra Golf");
 		
 		for ($I = 1; $I <= $cantDest; $I++) {
 			//${'para'.$I} = $_POST['para'.$I];
