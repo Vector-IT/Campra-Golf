@@ -172,7 +172,6 @@
 				if (!$conn->query($strSQL))
 					echo "Error al subir imagen:<br />(" . $conn->errno . ") " . $conn->error . "<br />" . $strSQL;
 					else {
-						procesarRuteo();
 						echo "Imagen subida!<br>";
 					}
 			}

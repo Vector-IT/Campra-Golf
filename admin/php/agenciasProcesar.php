@@ -163,7 +163,7 @@
 			if (!$conn->query($strSQL))
 				echo "Error al crear agencia:<br />(" . $conn->errno . ") " . $conn->error . "<br />" . $strSQL;
 			else {
-				procesarRuteo();
+				// procesarRuteo();
 				
 				$url = 'http://'. $_SERVER['HTTP_HOST'].'/admin/php/usuariosProcesar.php';
 				$fields = array(
@@ -260,7 +260,7 @@
 			if (!$conn->query($strSQL))
 				echo "Error al modificar agencia:<br />(" . $conn->errno . ") " . $conn->error . "<br />";
 			else {
-				procesarRuteo();
+				// procesarRuteo();
 				echo "Agencia modificada!";
 			}
 			
@@ -281,7 +281,7 @@
 			if (!$conn->query($strSQL))
 				echo "Error al borrar agencia:<br />(" . $conn->errno . ") " . $conn->error . "<br />" . $strSQL;
 			else {
-				procesarRuteo();
+				// procesarRuteo();
 				echo "Agencia borrada!";
 			}
 
@@ -465,7 +465,7 @@
 			if (!$conn->query($strSQL))
 				echo "Error al borrar agencia:<br />(" . $conn->errno . ") " . $conn->error . "<br />" . $strSQL;
 			else {
-				procesarRuteo();
+				// procesarRuteo();
 				echo "Agencia borrada!";
 			}
 

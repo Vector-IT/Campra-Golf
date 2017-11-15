@@ -117,10 +117,10 @@
 		$contenido = "<IfModule mod_rewrite.c>";
 		$contenido.= "\nRewriteEngine On";
 		$contenido.= "\nRewriteBase /";
-		$contenido.= "\nRewriteRule ^tour/([^/]*)/? /tour.php?tour=$1 [L,PT]";
+		$contenido.= "\nRewriteRule ^producto/([^/]*)/? /producto.php?tour=$1 [L,PT]";
 		$contenido.= "\nRewriteRule ^experiencia/([^/]*)/? /experiencia.php?experiencia=$1 [L,PT]";
-		$contenido.= "\nRewriteRule ^blog/([^/]*)/? /blog.php?blog=$1 [L,PT]";
-		$contenido.= "\nRewriteRule ^ruta/([^/]*)/? /ruta.php?ruta=$1 [L,PT]";
+		$contenido.= "\nRewriteRule ^novedades/([^/]*)/? /novedades.php?blog=$1 [L,PT]";
+		//$contenido.= "\nRewriteRule ^ruta/([^/]*)/? /ruta.php?ruta=$1 [L,PT]";
 	
 		$strSQL = "SELECT NumeAgen, Dominio";
 		$strSQL.= " FROM agencias";
@@ -132,8 +132,8 @@
 			$contenido.= "\n";
 			$contenido.= "\nRewriteRule ^{$fila["Dominio"]}/experiencia/([^/]*)/? /experiencia.php?experiencia=$1&agencia={$fila["NumeAgen"]} [L,PT]";
 			$contenido.= "\nRewriteRule ^{$fila["Dominio"]}/producto/([^/]*)/? /producto.php?producto=$1&agencia={$fila["NumeAgen"]} [L,PT]";
-			$contenido.= "\nRewriteRule ^{$fila["Dominio"]}/novedades/([^/]*)/? /blog.php?novedades=$1&agencia={$fila["NumeAgen"]} [L,PT]";
-			$contenido.= "\nRewriteRule ^{$fila["Dominio"]}/ruta/([^/]*)/? /ruta.php?ruta=$1&agencia={$fila["NumeAgen"]} [L,PT]";
+			$contenido.= "\nRewriteRule ^{$fila["Dominio"]}/novedades/([^/]*)/? /novedades.php?blog=$1&agencia={$fila["NumeAgen"]} [L,PT]";
+			// $contenido.= "\nRewriteRule ^{$fila["Dominio"]}/ruta/([^/]*)/? /ruta.php?ruta=$1&agencia={$fila["NumeAgen"]} [L,PT]";
 			$contenido.= "\nRewriteRule ^{$fila["Dominio"]}/?(.+) /$1?agencia={$fila["NumeAgen"]} [NC]";
 		}
 		
