@@ -325,7 +325,7 @@ $(function() {
     				}
     			};
 
-    			xmlhttp.open("POST","/admin/php/comentariosProcesar.php",true);
+    			xmlhttp.open("POST","admin/php/comentariosProcesar.php",true);
     			xmlhttp.send(frmData);
             	
     			return false;
@@ -337,13 +337,13 @@ $(function() {
             	var Mensaje = $(this).find("#comment").val();
             	var Nombre = $(this).find("#nombre").val();
             	var Correo = $(this).find("#mail").val();
-            	var Puntaje = $(this).find("input[name=rating]:checked").val();
+            	// var Puntaje = $(this).find("input[name=rating]:checked").val();
             	
             	frmData.append("operacion", "0");
             	frmData.append("Numero", Numero);
             	frmData.append("Tipo", "2");
                 frmData.append("Mensaje", Mensaje);
-                frmData.append("Puntaje", Puntaje);
+                // frmData.append("Puntaje", Puntaje);
                 frmData.append("Nombre", Nombre);
                 frmData.append("Correo", Correo);
 
@@ -367,7 +367,7 @@ $(function() {
     				}
     			};
 
-    			xmlhttp.open("POST","/admin/php/comentariosProcesar.php",true);
+    			xmlhttp.open("POST","admin/php/comentariosProcesar.php",true);
     			xmlhttp.send(frmData);
             	
     			return false;

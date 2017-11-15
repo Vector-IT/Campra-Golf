@@ -23,6 +23,7 @@
 	if (isset($_POST["Mensaje"]))
 		$Mensaje = str_replace("'", "\'", $_POST["Mensaje"]);
 	
+	$Puntaje = 0;
 	if (isset($_POST["Puntaje"]))
 		$Puntaje = $_POST["Puntaje"];
 	

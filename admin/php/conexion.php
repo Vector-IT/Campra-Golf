@@ -1,10 +1,10 @@
 <?php 
-	$dbhost = "mysql1102.ixwebhosting.com";
-	$db = "BBBmawh_campra";
-	$dbuser = "BBBmawh_campra";
-	$dbpass = "Vector123";
+	$dbhost = "localhost";
+	$db = "campra";
+	$dbuser = "campra";
+	$dbpass = "campra";
 	$crlf = "\n";
-	$raiz = "/";
+	$raiz = "/Campra-Golf/";
 	
 	function ejecutarCMD($strSQL) {
 		global $dbhost, $dbuser, $dbpass, $db, $crlf;

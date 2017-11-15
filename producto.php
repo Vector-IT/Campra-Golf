@@ -357,7 +357,7 @@
 								
 							</div>						
 							<div class="col-md-12 form-group">
-								<label class="sr-only" for="email">Comentario</label>
+								<label class="sr-only" for="comment">Comentario</label>
 								<textarea class="form-control" id="comment" placeholder="Comentario" required></textarea>
 							</div>
 							<div class="col-md-4">
@@ -457,7 +457,7 @@
 											<input type="text" class="form-control form-custom" id="nombre" name="name" placeholder="Nombre Completo*" required>
 											<input type="text" class="form-control form-custom" id="email" placeholder="Email*" required>
 											<input type="text" class="form-control form-custom" id="telefono" placeholder="Teléfono*" required>
-											<select class="form-control form-custom" id="provincia">
+											<select class="form-control form-custom" id="provincia" style="display: none;">
 											<?php
 												echo cargarCombo("SELECT NumeProv, NombProv FROM provincias ORDER BY NombProv", "NumeProv", "NombProv", "", true, "Seleccione un estado...");
 											?>

@@ -1,6 +1,9 @@
 <?php
 	session_start();
 	include("admin/php/conexion.php");
+
+	ini_set("log_errors", 1);
+	ini_set("error_log", "php-error.log");
 	
 	//Cargo los datos de la agencia
 	if (isset($_GET["agencia"]))
@@ -43,7 +46,7 @@
 	
 	//Cargo los articulos del blog
 	$rec_limit = 3;
-	$rec_count = buscarDato("SELECT COUNT(*) FROM blog b LEFT JOIN blogexperiencias be ON b.NumeBlog = be.NumeBlog " . $filtros);
+	$rec_count = buscarDato("SELECT COUNT(*) FROM blog b LEFT JOIN blogexperiencias be ON b.NumeBlog = be.NumeBlog");
 
 	//Verifico en que pagina estoy
 	if (isset($_GET["page"])) {
@@ -59,7 +62,6 @@
 	$strSQL = "SELECT b.NumeBlog, b.Titulo, b.Dominio, b.Imagen, b.Copete, b.Fecha, b.Etiquetas";
 	$strSQL.= " FROM blog b";
 	$strSQL.= " LEFT JOIN blogexperiencias be ON b.NumeBlog = be.NumeBlog";
-	$strSQL.= $filtros;
 	$strSQL.= " GROUP BY b.NumeBlog, b.Titulo, b.Dominio, b.Imagen, b.Copete, b.Fecha, b.Etiquetas";
 	$strSQL.= " ORDER BY Fecha DESC";
 	$strSQL.= " LIMIT {$offset}, {$rec_limit}";
@@ -223,18 +225,18 @@
 									}
 			
 									//Armo el paginador
-									$salida.= $crlf . '<ul class="pager">';
-									$salida.= $crlf . '';
-									if ($page > 1) {
-										$last = $page - 1;
-										$salida.= $crlf . '<li class="previous"><a href="novedades.php?page='.$last.'">&larr; Anterior</a></li>';
+									// $salida.= $crlf . '<ul class="pager">';
+									// $salida.= $crlf . '';
+									// if ($page > 1) {
+									// 	$last = $page - 1;
+									// 	$salida.= $crlf . '<li class="previous"><a href="novedades.php?page='.$last.'">&larr; Anterior</a></li>';
 										
-										if ($left_rec > 0)
-											$salida.= $crlf . '<li class="next"><a href="novedades.php?page='.($page + 1).'">Siguiente &rarr;</a></li>';
-									}
-									else if ($left_rec > 0) {
-										$salida.= $crlf . '<li class="next"><a href="novedades.php?page='.($page + 1).'">Siguiente &rarr;</a></li>';
-									}				
+									// 	if ($left_rec > 0)
+									// 		$salida.= $crlf . '<li class="next"><a href="novedades.php?page='.($page + 1).'">Siguiente &rarr;</a></li>';
+									// }
+									// else if ($left_rec > 0) {
+									// 	$salida.= $crlf . '<li class="next"><a href="novedades.php?page='.($page + 1).'">Siguiente &rarr;</a></li>';
+									// }				
 									
 									echo $salida;
 								}
@@ -248,7 +250,7 @@
 						</div>
 					</div>
 			    </div>
-				<div class="container">
+				<!-- <div class="container">
 					<div class="col-md-10 col-md-offset-1" style="margin-top:15px;">
 						<div id="owl-carousel" class="owl-theme">
 						<?php
@@ -269,7 +271,6 @@
 							
 							echo $salida;
 						?>
-						<!-- 
 							<div style="text-align: center;">
 								<a href="ruta/ruta-independencia">
 									<h3 class="text-left promos">PROMOCIÓN 10 % DE DESCUENTO SALIDA 17 DE MAYO</h3>
@@ -278,10 +279,10 @@
 									</div>
 								</a>
 							</div>
-						 -->
+						 
 						</div>
 					</div>
-				</div>
+				</div> -->
 				</div>
 			<?php
 				include_once 'pie-de-pagina.php';
