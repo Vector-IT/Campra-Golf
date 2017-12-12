@@ -697,7 +697,6 @@ margin: 0px !important;
     position: absolute;
     text-align: center;
     font-family: 'MyriadWebPro-Regular' !important;
-    width: 70%;
     z-index: 1;
     top: 45%;
     max-width: 1234px;
@@ -707,9 +706,9 @@ margin: 0px !important;
     text-shadow: -1px -1px 4px rgba(0, 0, 0, 0.40);
     line-height: 35px;
     font-weight: 300;
-    padding-left: 15%;
+    padding: 0px 60px;
 }
-#quienes-somos h1, #staff h2 {
+#quienes-somos h1, #staff h2, #tecnologias h2 {
     text-transform: uppercase;
     color: #11A56C !important;
     font-family: "HelveticaNeueLTStd-Cn" !important;
@@ -717,7 +716,7 @@ margin: 0px !important;
     padding-top: 15px;
     padding-bottom: 20px;
 }
-#staff h3 {
+#staff h3,  #tecnologias h3 {
     color: #000;
     font-family: 'HelveticaNeueLTStd-Cn' !important;
     font-size: 30px;
@@ -1278,4 +1277,49 @@ h4 {
 .aligncenter {
 	display: block;
 	margin: 0 auto;
+}
+
+@media (max-width: 767px) {    
+    .pull-right-not-xs, .pull-left-not-xs{
+        float: none;
+    }
+    .pull-right-xs {
+        float: right;
+    }
+    .pull-left-xs {
+        float: left;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .pull-right-not-sm, .pull-left-not-sm{
+        float: none;
+    }
+    .pull-right-sm {
+        float: right;
+    }
+    .pull-left-sm {
+        float: left;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .pull-right-not-md, .pull-left-not-md{
+        float: none;
+    }
+    .pull-right-md {
+        float: right;
+    }
+    .pull-left-md {
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .pull-right-not-lg, .pull-left-not-lg{
+        float: none;
+    }
+    .pull-right-lg {
+        float: right;
+    }
+    .pull-left-lg {
+        float: left;
+    }
 }

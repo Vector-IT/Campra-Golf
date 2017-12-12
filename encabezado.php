@@ -131,6 +131,7 @@
 		<div class="collapse navbar-collapse" id="navbar-collapse-2">
 			<ul class="nav navbar-nav center">
 				<li><a href="quienes-somos.php">Quienes Somos</a></li>
+				<li><a href="sponsors.php">Sponsors</a></li>
 				<li><a href="experiencia/campra-viajes">Viajes Golf</a></li>			
 				<li><a href="experiencia/school-of-golf">School of Golf</a></li>	
 				<li><a href="college-placement.php">College Placement</a></li>

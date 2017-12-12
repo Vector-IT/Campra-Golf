@@ -78,53 +78,166 @@
 			?>
 			<div class="container" style="">
 				<div class="row">
-					<h1 class="sliderTitle">Campra Golf</h1>
-					<p class="sliderDesc">Academia de golf de jerarquía mundial que crea un espacio de encuentro y aprendizaje para golﬁstas de todos los niveles. </p>
+					<h1 class="sliderTitle" style="display: none;">Campra Golf</h1>
+					<p class="sliderDesc" style="display: none;">Academia de golf de jerarquía mundial que crea un espacio de encuentro y aprendizaje para golﬁstas de todos los niveles. </p>
 					<div class="fotorama" data-width="100%" data-height="55%" data-fit="cover" data-transition="crossfade"  data-autoplay="true" data-arrows="true"
      data-click="true"  data-loop="true" data-autoplay="true">
-					<img src="images/quienes-somos.jpg">
-					<img src="images/quienes-somos.jpg">
+					<img src="images/0 (11).jpg">
+					<img src="images/0 (570).jpg">
+					<img src="images/0 (615) (1).jpg">
 					</div>
 				</div>
 			</div>
 			<div class="container">
 				<div id="quienes-somos" class="row">
 					<div class="col-md-10 col-md-offset-1">
-						<h1 style="text-align: center;">Quienes Somos</h1>
-						<p style="text-align: center;">Orientado a golﬁstas amateurs, profesionales, sociales, empresariales y a quienes se quieran iniciar en el deporte, Campra Golf - Pepa Campra y su excelente staff de instructores - vuelcan todo su conocimiento y experiencia en un espacio de última tecnología ubicado en el Driving Range Golf Academy de Villa Allende. <br/>
-	<span style="color: #000;  font-family: 'HelveticaNeueLTStd-Cn' !important;">Campra Golf</span> cuenta con las mejores herramientas y softwares en el mercado - cámaras de video de alta deﬁnición, Boditrack, Trackman, V-1, K-Vest & Sam Putt Lab - mediante las cuales se pueden analizar diversos aspectos del swing y el juego de manera precisa, así como también realizar ﬁttings de palos.   </p>
+						<h1 style="text-align: center;">Academia Campra Golf</h1>
+						<p style="text-align: center;">Orientado a golfistas amateurs, profesionales, sociales, empresariales y a quienes se quieran iniciar en el deporte, <span style="color: #000;  font-family: 'HelveticaNeueLTStd-Cn' !important;">Campra Golf</span> - Pepa Campra y su excelente staff de instructores - vuelcan todo su conocimiento y experiencia en un espacio de aprendizaje equipado con tecnología de última línea.<br/><br/>
+	Campra Golf cuenta con las mejores herramientas y softwares en el mercado - cámaras de video de alta definición, Boditrak, Trackman, V1, K-Vest & Sam Putt Lab - mediante las cuales se pueden analizar diversos aspectos del swing y el juego de manera precisa, así como también realizar fittings de palos.    <br/>  <br/> 
+Campra Golf trae a Córdoba, Argentina y América Latina una academia de golf de jerarquía mundial que crea un espacio de encuentro y aprendizaje para golfistas de todos los niveles.                
+  </p>
 					</div>
 				</div>
 			</div>
 			<div id="staff" class="container">
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1" style="margin-top:60px; margin-bottom: 0px; ">
-						<div class="col-md-6"><img class="img-responsive" src="images/1.jpg" width="100%" height="auto"></div>
-						<div class="col-md-6">
-							<h2>STAFF</h2>
-							<h3 style="">Jose Luis “Pepa” Campra</h3>
-							<p>Reconocido en el golf latinoamericano por su notable carrera como jugador aﬁcionado y profesional, Pepa consagra su pasión por el juego y la instrucción en la realización de Campra Golf.  <br/>
-Su reconocimiento como coach de primer nivel se atribuye a innumerables capacitaciones en el exterior con instructores de renombre como Butch Harmon & Sean Foley. Además, acumula conocimientos excepcionales como caddie en el PGA Tour de los mejores profesionales argentinos, entre ellos, Angel Cabrera y, actualmente Emiliano Grillo.</p>
+						<h2  style="text-align: center;">Campra Golf Staff</h2>
+						<img class="img-responsive" src="images/0 (83).jpg" width="100%" height="auto" style="margin-bottom: 60px;">
+						<div class="col-md-6">					
+							<div class="fotorama" data-width="100%" data-height="55%" data-fit="contain" data-transition="crossfade"  data-autoplay="true" data-arrows="true" data-click="true"  data-loop="true" data-autoplay="true">
+								<img src="images/1.jpg">
+								<img src="images/0 (35).jpg">
+							</div>
+						</div>
+						<div class="col-md-6"  style="margin-top:40px; margin-bottom: 10px;">
+							<h3 style="margin-top: 90px;">Jose Luis “Pepa” Campra</h3>
+							<p>Reconocido en el golf latinoamericano por su notable carrera como jugador aficionado y profesional, Pepa consagra su pasión por el juego y la instrucción en la realización de Campra Golf. Su reconocimiento como coach e instructor de primer nivel se atribuye a innumerables capacitaciones en el exterior con instructores de renombre como Butch Harmon & Sean Foley. Además, acumula conocimientos excepcionales como caddie en el PGA Tour de los mejores profesionales argentinos, entre ellos, Angel Cabrera y Emiliano Grillo.           </p>
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" style="display: none;">
 					<div class="col-md-10 col-md-offset-1" style="margin-top:40px; margin-bottom: 10px;">
 						<p style="background: #11A66D;padding: 15px;color: #fff;font-size: 30px;line-height: 36px;text-align: center;margin-bottom: 35px;">Acompañan a Pepa y aportan su gran conocimiento técnico de la mano de un excelente manejo de las tecnologías a disposición.</p>
 					</div>
 				</div>				
-				<div class="row">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1" style="margin-top:0px;">
+					<div class="row"  style="margin-top:40px; margin-bottom: 10px;">
+							<div class="col-md-4"  style="margin-top:40px; margin-bottom: 10px;">
+								<img class="img-responsive aligncenter" src="images/0 (26).jpg" width="" height="" style="max-width: 75%;">	
+								<h3 style="text-align: center;">Martina Gavier</h3>
+								<p style="text-align: center;">Jugadora de trayectoria amateur en el golf argentino, sudamericano e interuniversitario norteamericano como parte del equipo de Kent State University. Como profesional compitió tres años en la LPGA Symetra Tour. Su experiencia como instructora incluye participación en academias de renombre en los E.E.U.U..</p>
+							</div>
+							<div class="col-md-4"  style="margin-top:40px; margin-bottom: 10px;">	
+								<img class="img-responsive aligncenter" src="images/0 (52).jpg" width="" height="" style="max-width: 75%;">
+								<h3 style="text-align: center;">Maxi Lacuara</h3>
+								<p style="text-align: center;">Instructor certificado de la PGA Argentina. Maxi lleva ocho años dedicado exclusivamente a la instrucción de golf.</p>
+							</div>
+							<div class="col-md-4"  style="margin-top:40px; margin-bottom: 10px;">
+								<img class="img-responsive aligncenter" src="images/0 (39).jpg" width="" height="" style="max-width: 75%;">	
+								<h3 style="text-align: center;">Martina Bertuccioli</h3>
+								<p style="text-align: center;">Jugadora de experiencia y trayectoria en en el golf interuniversitario norteamericano como representante de Barry University. Encargada de la Escuela de Menores.</p>
+							</div>																					
+					</div>
+				</div>
+			</div>
+			<div class="row" style="display: none;">
 					<div class="col-md-10 col-md-offset-1" style="margin-top:0px;">
-						<div class="col-md-6">
-							<img class="img-responsive aligncenter" src="images/2.jpg" width="" height="">
-							<h3 style="text-align: center;">Maxi Lacuara</h3>
-							<p style="text-align: center; padding: 3%;">Certiﬁcado de la <span style="color: #000;  font-family: 'HelveticaNeueLTStd-Cn' !important;">PGA Argentina</span> y lleva 6 años dedicado exclusivamente a la instrucción de golf.</p>
+						<div class="row"  style="margin-top:40px; margin-bottom: 10px;">
+							<div class="col-md-6"  style="margin-top:40px; margin-bottom: 10px;">	
+								<h3 style="margin-top: 90px;">Martina Gavier</h3>
+								<p>Jugadora de trayectoria amateur en el golf argentino, sudamericano e interuniversitario norteamericano como parte del equipo de Kent State University. Como profesional compitió tres años en la LPGA Symetra Tour. Su experiencia como instructora incluye participación en academias de renombre en los E.E.U.U..</p>
+							</div>
+							<div class="col-md-6">
+								<img class="img-responsive aligncenter" src="images/0 (26).jpg" width="" height="" style="max-width: 350px;">
+							</div>							
+						</div>	
+						<div class="row"  style="margin-top:40px; margin-bottom: 10px;">
+							<div class="col-md-6">
+								<img class="img-responsive aligncenter" src="images/0 (52).jpg" width="" height="" style="max-width: 350px;">
+							</div>
+							<div class="col-md-6"  style="margin-top:40px; margin-bottom: 10px;">	
+								<h3 style="margin-top: 90px;">Maxi Lacuara</h3>
+								<p>Instructor certificado de la PGA Argentina. Maxi lleva ocho años dedicado exclusivamente a la instrucción de golf.</p>
+							</div>
 						</div>
-						<div class="col-md-6">
-							<img class="img-responsive aligncenter" src="images/3.jpg" width="" height="">
-							<h3 style="text-align: center;">Martina Gavier</h3>
-							<p style="text-align: center; padding: 3%;">Ex miembro de la <span style="color: #000;  font-family: 'HelveticaNeueLTStd-Cn' !important;">LPGA Symetra Tour</span> y su experiencia en coaching incluye participación en academias de renombre en los EEUU. </p>
-						</div>
+						<div class="row"  style="margin-top:40px; margin-bottom: 10px;">
+							<div class="col-md-6"  style="margin-top:40px; margin-bottom: 10px;">	
+								<h3 style="margin-top: 90px;">Martina Bertuccioli</h3>
+								<p>Jugadora de experiencia y trayectoria en en el golf interuniversitario norteamericano como representante de Barry University. Encargada de la Escuela de Menores.</p>
+							</div>						
+							<div class="col-md-6">
+								<img class="img-responsive aligncenter" src="images/0 (39).jpg" width="" height="" style="max-width: 350px;">
+							</div>
+						</div>																
+					</div>
+				</div>
+			</div>
+			<div id="tecnologias" class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1" style="margin-top:60px; margin-bottom: 0px; ">
+						<h2 style="text-align: center;">Tecnologías a Disposición en la Academia Campra Golf</h2>
+						<div class="row" style="margin-top:60px; margin-bottom: 60px; ">
+							<div class="col-md-4" style="padding: 3%;">
+								<h3>TrackMan</h3>
+								<p>Dispositivo de última generación que utiliza la tecnología radar doppler para proporcionar un abanico de datos sobre el palo en el momento del impacto y el vuelo de la bola. Lo utilizamos para brindar nuestro servicio de club fitting y a modo de complemento en clases individuales y grupales.</p>
+							</div>								
+							<div class="col-md-8">
+								<div class="fotorama" data-width="100%" data-height="" data-fit="contain" data-transition="crossfade"  data-autoplay="true" data-arrows="true" data-click="true"  data-loop="true" data-autoplay="true">
+									<img src="images/0 (139).jpg">
+									<img src="images/0 (165).jpg">
+								</div>
+							</div>					
+						</div>	
+						<div class="row" style="margin-top:60px; margin-bottom: 60px; ">					
+							<div class="col-md-8 ">
+								<div class="fotorama" data-width="100%" data-height="" data-fit="contain" data-transition="crossfade"  data-autoplay="true" data-arrows="true" data-click="true"  data-loop="true" data-autoplay="true">
+									<img src="images/0 (295).jpg">
+									<img src="images/0 (327).jpg">
+								</div>
+							</div>		
+							<div class="col-md-4" style="padding: 3%;">
+								<h3>Boditrak</h3>
+								<p>Alfombra portátil con sensores que mediante un programa de aplicación (software) ofrece datos en tiempo real sobre como el golfista mueve las presiones de su cuerpo e interactúa con el suelo en cada momento del swing.</p>
+							</div>										
+						</div>	
+						<div class="row" style="margin-top:60px; margin-bottom: 60px; ">
+							<div class="col-md-4 " style="padding: 3%;">
+								<h3>V1</h3>
+								<p>Programa de aplicación (software) utilizado para realizar evaluaciones técnicas sobre el swing que permite al jugador visualizar las correcciones indicadas por el instructor maximizando su experiencia de aprendizaje. Ademas ofrece la posibilidad al instructor de enviar via e-mail a sus alumnos videos repaso de lo trabajado durante la clase.</p>
+							</div>								
+							<div class="col-md-8">
+								<div class="fotorama" data-width="100%" data-height="" data-fit="contain" data-transition="crossfade"  data-autoplay="true" data-arrows="true" data-click="true"  data-loop="true" data-autoplay="true">
+									<img src="images/0 (144).jpg">
+									<img src="images/0 (149).jpg">
+								</div>
+							</div>					
+						</div>	
+						<div class="row" style="margin-top:60px; margin-bottom: 60px; ">						
+							<div class="col-md-8 ">
+								<div class="fotorama" data-width="100%" data-height="" data-fit="contain" data-transition="crossfade"  data-autoplay="true" data-arrows="true" data-click="true"  data-loop="true" data-autoplay="true">
+									<img src="images/0 (193).jpg">
+									<img src="images/0 (254).jpg">
+								</div>
+							</div>		
+							<div class="col-md-4" style="padding: 3%;">
+								<h3>K-Vest</h3>
+								<p>Único sistema de aprendizaje de movimiento humano de la industria. Consiste en un sistema inalámbrico todo en uno que mide instantáneamente datos 3D del swing del golfista. Evalúa las características del jugador, genera informes precisos y automáticamente transfiere esos informes a un creador de programas de entrenamiento que en tiempo real posibilitan que el jugador sienta nuevos patrones de movimiento.</p>
+							</div>										
+						</div>													
+						<div class="row" style="margin-top:60px; margin-bottom: 60px; ">
+							<div class="col-md-4 " style="padding: 3%;">
+								<h3>Sam Putt Lab</h3>
+								<p>Sistema de entrenamiento y análisis de putt más completo y preciso del mundo. Portátil para uso interior y exterior. Ofrece análisis de todos los aspectos más relevantes del swing de putt y también módulos de entrenamiento específicos.</p>
+							</div>								
+							<div class="col-md-8">
+								<div class="fotorama" data-width="100%" data-height="" data-fit="contain" data-transition="crossfade"  data-autoplay="true" data-arrows="true" data-click="true"  data-loop="true" data-autoplay="true">
+									<img src="images/0 (507).jpg">
+									<img src="images/0 (551).jpg">
+								</div>
+							</div>
+						</div>												
 					</div>
 				</div>
 			</div>
