@@ -357,49 +357,28 @@
 				<div class="form-group">
 					<div class="col-md-10">
 						<label class="labelCheck">
-							<input id="chkAgencias" type="checkbox"> Agencias
+							<input id="chkAgencias" type="checkbox"> Institucional
 						</label>
 					</div>
 				</div>
 				<div class="form-group">
 					<div class="col-md-10">
 						<label class="labelCheck">
-							<input id="chkAgRegistros" type="checkbox"> Solicitud de agencias
+							<input id="chkExperiencias" type="checkbox"> Unidades de negocio
 						</label>
 					</div>
 				</div>
 				<div class="form-group">
 					<div class="col-md-10">
 						<label class="labelCheck">
-							<input id="chkExperiencias" type="checkbox"> Experiencias
+							<input id="chkTours" type="checkbox"> Productos
 						</label>
 					</div>
 				</div>
 				<div class="form-group">
 					<div class="col-md-10">
 						<label class="labelCheck">
-							<input id="chkTours" type="checkbox"> Tours
-						</label>
-					</div>
-				</div>
-				<div class="form-group">
-					<div class="col-md-10">
-						<label class="labelCheck">
-							<input id="chkBlog" type="checkbox"> Blog del viajero
-						</label>
-					</div>
-				</div>
-				<div class="form-group">
-					<div class="col-md-10">
-						<label class="labelCheck">
-							<input id="chkFlyers" type="checkbox"> Flyers
-						</label>
-					</div>
-				</div>
-				<div class="form-group">
-					<div class="col-md-10">
-						<label class="labelCheck">
-							<input id="chkCotizaciones" type="checkbox"> Cotizaciones
+							<input id="chkBlog" type="checkbox"> Novedades
 						</label>
 					</div>
 				</div>

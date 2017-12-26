@@ -127,6 +127,7 @@
 				</form>
 			</ul>
 		</div>
+
 		<!-- /.navbar-collapse -->
 		<div class="collapse navbar-collapse" id="navbar-collapse-2">
 			<ul class="nav navbar-nav center">
@@ -137,6 +138,7 @@
 				<li><a href="experiencia/school-of-golf">School of Golf</a></li>	
 				<li><a href="college-placement.php">College Placement</a></li>
 				<li><a href="novedades.php">News</a></li>
+				<li><a href="videos.php">Videos</a></li>
 				<li style="border-right: none !important;"><a href="contacto.php">Contacto</a></li>	
 			</ul>
 		</div>
