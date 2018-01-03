@@ -70,7 +70,7 @@
 				
 				<ul class="align-right" style="padding-top: 15px; display: table-row;">
 
-				<a href="https://www.youtube.com/channel/UCktq_oCQ7k3Z8DxrWBIJ0eg" class="navbar-link social youtube" target="_blank"><img src="images/icon-youtube.png" onmouseover=images/icon-youtube-negro.png" onmouseout="images/icon-youtube.png" width="28" height="28" alt="YouTube"></a>
+				<a href="https://www.youtube.com/channel/UCktq_oCQ7k3Z8DxrWBIJ0eg" class="navbar-link social" target="_blank"><img src="images/icon-youtube.png" onmouseover="this.src='images/icon-youtube-negro.png'" onmouseout="this.src='images/icon-youtube.png'" width="28" height="28" alt="YouTube"></a>
 
 					<?php 
 						$salida = "";
