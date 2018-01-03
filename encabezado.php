@@ -69,6 +69,9 @@
 				</li>
 				
 				<ul class="align-right" style="padding-top: 15px; display: table-row;">
+
+				<a href="https://www.youtube.com/channel/UCktq_oCQ7k3Z8DxrWBIJ0eg" class="navbar-link social youtube" target="_blank"><img src="images/icon-youtube.png" onmouseover=images/icon-youtube-negro.png" onmouseout="images/icon-youtube.png" width="28" height="28" alt="YouTube"></a>
+
 					<?php 
 						$salida = "";
 						if ($twitAgen != "") {
@@ -91,6 +94,7 @@
 						
 						echo $salida;
 					?>
+					
 					<li style="list-style:none!important;">
 						<?php
 							$salida = "";
@@ -138,7 +142,7 @@
 				<li><a href="experiencia/school-of-golf">School of Golf</a></li>	
 				<li><a href="college-placement.php">College Placement</a></li>
 				<li><a href="novedades.php">News</a></li>
-				<li><a href="videos.php">Videos</a></li>
+<li><a href="http://campragolf.com/experiencia/notas-de-prensa">Notas de Prensa</a></li>
 				<li style="border-right: none !important;"><a href="contacto.php">Contacto</a></li>	
 			</ul>
 		</div>
