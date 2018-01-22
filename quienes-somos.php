@@ -96,6 +96,8 @@
 	Campra Golf cuenta con las mejores herramientas y softwares en el mercado - cámaras de video de alta definición, Boditrak, Trackman, V1, K-Vest & Sam Putt Lab - mediante las cuales se pueden analizar diversos aspectos del swing y el juego de manera precisa, así como también realizar fittings de palos.    <br/>  <br/> 
 Campra Golf trae a Córdoba, Argentina y América Latina una academia de golf de jerarquía mundial que crea un espacio de encuentro y aprendizaje para golfistas de todos los niveles.                
   </p>
+<br/>
+  <iframe width="100%" height="500" src="https://www.youtube.com/embed/GMKPeZ7x1Y8?showinfo=0&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
