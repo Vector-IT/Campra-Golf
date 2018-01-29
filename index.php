@@ -166,7 +166,7 @@
 							$experiencias->data_seek(0);
 							$salida = "";
 							while ($fila = $experiencias->fetch_array()) {
-								$salida.= $crlf.'<li data-link="'.$fila["Dominio"].'" data-target="_self">';
+								$salida.= $crlf.'<li data-link="experiencia/'.$fila["Dominio"].'" data-target="_self">';
 								$salida.= $crlf.'<div class="elementoCarousel" >';
 								$salida.= $crlf.'<img src="admin/'.$fila["FotoBanner"].'" style="width: 370px; height: auto;" /></img>';
 								$salida.= $crlf.'<div class="elementoCarouselTitulo">'.$fila["NombExpe"].'</div>';
@@ -219,8 +219,8 @@
 										$cantCome = buscarDato("SELECT COUNT(*) FROM blogcomentarios WHERE NumeBlog = " .  $fila["NumeBlog"]);
 										
 										$salida.= $crlf . '<article class="col-sm-4" style="padding-bottom: 20px;">';
-										$salida.= $crlf . '<h2><a href="novedades/'.$fila["Dominio"].'">'.$fila["Titulo"].'</a></h2>';
-										$salida.= $crlf . '<a href="novedades/'.$fila["Dominio"].'"> <img src="admin/'.$fila["Imagen"].'" class="img-responsive"></a>';
+										$salida.= $crlf . '<h2><a href="notas/'.$fila["Dominio"].'">'.$fila["Titulo"].'</a></h2>';
+										$salida.= $crlf . '<a href="notas/'.$fila["Dominio"].'"> <img src="admin/'.$fila["Imagen"].'" class="img-responsive"></a>';
 										$salida.= $crlf . '</article>';
 									}
 			

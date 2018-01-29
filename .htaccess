@@ -3069,7 +3069,7 @@ deny from 200.81.118.116/30
     RewriteEngine On
     RewriteBase /
     RewriteRule ^producto/([^/]*)/? /producto.php?tour=$1 [L,PT]
-    RewriteRule ^novedades/([^/]*)/? /blog.php?blog=$1 [L,PT]
+    RewriteRule ^nota/([^/]*)/? /blog.php?blog=$1 [L,PT]
     RewriteRule ^experiencia/([^/]*)/? /experiencia.php?experiencia=$1 [L,PT]
 
     RewriteCond %{REQUEST_URI}  !\.(css|js|php|html?|shtml|jpg|gif|png|jpeg|eot|otf|svg|ttf|woff|woff2|pdf)$

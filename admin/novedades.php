@@ -222,7 +222,12 @@
             frmData.append("Titulo", $("#titulo").val());
             frmData.append("Dominio", $("#dominio").val());
             frmData.append("Copete", $("#copete").val());
-            frmData.append("Descripcion", editor.getValue());
+
+			var descripcion = editor.getValue();
+			if ($('#video').val().trim() != '') {
+				descripcion+= '<br>' + $('#video').val().trim();
+			}
+            frmData.append("Descripcion", descripcion);
             frmData.append("Imagen", $("#imagen").get(0).files[0]);
 
             var experiencias = "";
@@ -537,6 +542,12 @@
 						</div>
 					</div>
 					<textarea class="form-control" id="descripcion" name="descripcion" rows="25"></textarea>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="video" class="control-label col-md-2">Video:</label>
+				<div class="col-md-10">
+					<textarea class="form-control" id="video" name="video"></textarea>
 				</div>
 			</div>
 			<div class="form-group">

@@ -176,20 +176,20 @@
 								$cantCome = buscarDato("SELECT COUNT(*) FROM blogcomentarios WHERE NumeBlog = " .  $fila["NumeBlog"]);
 								
 								$salida.= $crlf . '<article style="border-bottom: 1px dotted #ccc; padding-bottom: 20px;">';
-								$salida.= $crlf . '<h2><a href="novedades/'.$fila["Dominio"].'">'.$fila["Titulo"].'</a></h2>';
+								$salida.= $crlf . '<h2><a href="nota/'.$fila["Dominio"].'">'.$fila["Titulo"].'</a></h2>';
 								$salida.= $crlf . '<div class="row">';
 								$salida.= $crlf . '<div class="col-sm-6 col-md-6">';
 								$salida.= $crlf . '<span class="glyphicon glyphicon-bookmark"></span> ' . $fila["Etiquetas"];
 								$salida.= $crlf . '</div>';
 								$salida.= $crlf . '<div class="col-sm-6 col-md-6" style="text-align: right;">';
-								$salida.= $crlf . '<span class="glyphicon glyphicon-pencil"></span> <a href="novedades/'.$fila["Dominio"].'">'.$cantCome.' Comentarios</a>';
+								$salida.= $crlf . '<span class="glyphicon glyphicon-pencil"></span> <a href="nota/'.$fila["Dominio"].'">'.$cantCome.' Comentarios</a>';
 								$salida.= $crlf . '&nbsp;&nbsp;<span class="glyphicon glyphicon-time"></span> ' . $fila["Fecha"];
 								$salida.= $crlf . '</div>';
 								$salida.= $crlf . '<hr>';
-								$salida.= $crlf . '<a href="novedades/'.$fila["Dominio"].'"> <img src="admin/'.$fila["Imagen"].'" class="img-responsive"></a>';
+								$salida.= $crlf . '<a href="nota/'.$fila["Dominio"].'"> <img src="admin/'.$fila["Imagen"].'" class="img-responsive"></a>';
 								$salida.= $crlf . '<br />';
 								$salida.= $crlf . '<p>'.$fila["Copete"].'</p>';
-								$salida.= $crlf . '<div class="experienciaAmpliar"><a href="novedades/'.$fila["Dominio"].'" target="_self"><span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true" style="font-size: 20px; margin-right: 25px; float: right !important; margin-bottom: 35px;"></span></a></div>';
+								$salida.= $crlf . '<div class="experienciaAmpliar"><a href="nota/'.$fila["Dominio"].'" target="_self"><span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true" style="font-size: 20px; margin-right: 25px; float: right !important; margin-bottom: 35px;"></span></a></div>';
 								$salida.= $crlf . '<br />';
 								$salida.= $crlf . '</article>';
 							}
@@ -242,7 +242,7 @@
 								$salida = "";
 								
 								while ($fila = $ultimos->fetch_array()) {
-									$salida.= $crlf . '<li class="list-group-item"><a href="novedades/'.$fila["Dominio"].'">'.$fila["Titulo"].'<br />'.$fila["Fecha"].'</a></li>';
+									$salida.= $crlf . '<li class="list-group-item"><a href="nota/'.$fila["Dominio"].'">'.$fila["Titulo"].'<br />'.$fila["Fecha"].'</a></li>';
 								}
 								
 								echo $salida;
@@ -298,7 +298,7 @@
 								$salida = "";
 								
 								while ($fila = $comentarios->fetch_array()) {
-									$salida.= $crlf . '<li class="list-group-item"><a href="novedades/'.$fila["Dominio"].'">'.substr($fila["DescCome"], 0, 30).'... - <em>'.$fila["NombComp"].'</em></a></li>';
+									$salida.= $crlf . '<li class="list-group-item"><a href="nota/'.$fila["Dominio"].'">'.substr($fila["DescCome"], 0, 30).'... - <em>'.$fila["NombComp"].'</em></a></li>';
 								}
 								
 								echo $salida;

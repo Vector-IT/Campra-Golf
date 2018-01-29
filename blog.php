@@ -94,10 +94,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<?php 
-			if (($dominio != "/") && ($dominio != ""))
+			if (($dominio != "/") && ($dominio != "")) {
 				echo '<base href="'. $raiz . $dominio .'/" />';
-			else
+			}
+			else {
 				echo '<base href="'. $raiz .'" />';
+			}
 		?>
 		<title><?php echo $tituBlog;?></title>
 		<link rel="shortcut icon" href="images/favicon.ico" />
@@ -257,7 +259,7 @@
 								$salida = "";
 								
 								while ($fila = $ultimos->fetch_array()) {
-									$salida.= $crlf . '<li class="list-group-item"><a href="novedades/'.$fila["Dominio"].'">'.$fila["Titulo"].'<br />'.$fila["Fecha"].'</a></li>';
+									$salida.= $crlf . '<li class="list-group-item"><a href="notas/'.$fila["Dominio"].'">'.$fila["Titulo"].'<br />'.$fila["Fecha"].'</a></li>';
 								}
 								
 								echo $salida;
@@ -314,9 +316,9 @@
 								
 								while ($fila = $ultcomentarios->fetch_array()) {
 									if ($fila["NombComp"] != "")
-										$salida.= $crlf . '<li class="list-group-item"><a href="novedades/'.$fila["Dominio"].'">'.substr($fila["DescCome"], 0, 30).'... - <em>'.$fila["NombComp"].'</em></a></li>';
+										$salida.= $crlf . '<li class="list-group-item"><a href="notas/'.$fila["Dominio"].'">'.substr($fila["DescCome"], 0, 30).'... - <em>'.$fila["NombComp"].'</em></a></li>';
 									else 
-										$salida.= $crlf . '<li class="list-group-item"><a href="novedades/'.$fila["Dominio"].'">'.substr($fila["DescCome"], 0, 30).'... - <em>'.$fila["Nombre"].'</em></a></li>';
+										$salida.= $crlf . '<li class="list-group-item"><a href="notas/'.$fila["Dominio"].'">'.substr($fila["DescCome"], 0, 30).'... - <em>'.$fila["Nombre"].'</em></a></li>';
 								}
 								
 								echo $salida;
