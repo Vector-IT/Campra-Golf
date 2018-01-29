@@ -259,7 +259,7 @@
 								$salida = "";
 								
 								while ($fila = $ultimos->fetch_array()) {
-									$salida.= $crlf . '<li class="list-group-item"><a href="notas/'.$fila["Dominio"].'">'.$fila["Titulo"].'<br />'.$fila["Fecha"].'</a></li>';
+									$salida.= $crlf . '<li class="list-group-item"><a href="nota/'.$fila["Dominio"].'">'.$fila["Titulo"].'<br />'.$fila["Fecha"].'</a></li>';
 								}
 								
 								echo $salida;
@@ -316,9 +316,9 @@
 								
 								while ($fila = $ultcomentarios->fetch_array()) {
 									if ($fila["NombComp"] != "")
-										$salida.= $crlf . '<li class="list-group-item"><a href="notas/'.$fila["Dominio"].'">'.substr($fila["DescCome"], 0, 30).'... - <em>'.$fila["NombComp"].'</em></a></li>';
+										$salida.= $crlf . '<li class="list-group-item"><a href="nota/'.$fila["Dominio"].'">'.substr($fila["DescCome"], 0, 30).'... - <em>'.$fila["NombComp"].'</em></a></li>';
 									else 
-										$salida.= $crlf . '<li class="list-group-item"><a href="notas/'.$fila["Dominio"].'">'.substr($fila["DescCome"], 0, 30).'... - <em>'.$fila["Nombre"].'</em></a></li>';
+										$salida.= $crlf . '<li class="list-group-item"><a href="nota/'.$fila["Dominio"].'">'.substr($fila["DescCome"], 0, 30).'... - <em>'.$fila["Nombre"].'</em></a></li>';
 								}
 								
 								echo $salida;

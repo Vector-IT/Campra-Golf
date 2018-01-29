@@ -152,7 +152,7 @@
 							
 							while ($fila = $blog->fetch_array()) {
 								$salida.= $crlf.'<div id="articulo">';
-								$salida.= $crlf.'<a href="notas/'.$fila["Dominio"].'">';
+								$salida.= $crlf.'<a href="nota/'.$fila["Dominio"].'">';
 								$salida.= $crlf.'<h5 class="titulo-post">'.$fila["Titulo"].'</h5>';
 								$salida.= $crlf.'<img class="img-responsive" src="admin/'.$fila["Imagen"].'"  alt="" style="padding-bottom: 10px;">';
 								$salida.= $crlf.'<p class="extracto-post">'.$fila["Copete"].'</p>';
