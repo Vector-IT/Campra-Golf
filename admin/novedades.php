@@ -518,7 +518,7 @@
 							<button class="btn btn-primary btn-xs" data-wysihtml5-dialog-action="save">Aceptar</button>&nbsp;<button class="btn btn-default btn-xs" data-wysihtml5-dialog-action="cancel">Cancelar</button>
 						</div>
 	<!-- IMAGENES -->					
-						<div data-wysihtml5-dialog="insertImage" style="display: none;">
+						<div data-wysihtml5-dialog="insertImage" style="display: none; z-index: 1;">
 							<label>
 							Imagen: <input id="inpImagen" class="form-control" style="display: inline;" data-wysihtml5-dialog-field="src" value="http://">
 							</label>
