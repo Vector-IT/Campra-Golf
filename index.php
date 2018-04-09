@@ -219,8 +219,8 @@
 										$cantCome = buscarDato("SELECT COUNT(*) FROM blogcomentarios WHERE NumeBlog = " .  $fila["NumeBlog"]);
 										
 										$salida.= $crlf . '<article class="col-sm-4" style="padding-bottom: 20px;">';
-										$salida.= $crlf . '<h2><a href="notas/'.$fila["Dominio"].'">'.$fila["Titulo"].'</a></h2>';
-										$salida.= $crlf . '<a href="notas/'.$fila["Dominio"].'"> <img src="admin/'.$fila["Imagen"].'" class="img-responsive"></a>';
+										$salida.= $crlf . '<h2><a href="nota/'.$fila["Dominio"].'">'.$fila["Titulo"].'</a></h2>';
+										$salida.= $crlf . '<a href="nota/'.$fila["Dominio"].'"> <img src="admin/'.$fila["Imagen"].'" class="img-responsive"></a>';
 										$salida.= $crlf . '</article>';
 									}
 			
