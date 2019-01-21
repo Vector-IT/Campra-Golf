@@ -171,7 +171,7 @@
 						</a>
 						<article style="border-bottom: 1px dotted #ccc; padding-bottom: 20px;">
 							<h1><?php echo $tituBlog;?></h1>
-							<div class="row">
+							<div class="row" style="display: none;">
 								<div class="col-sm-6 col-md-6" style="padding: 0;">
 									<span class="glyphicon glyphicon-bookmark"></span> <?php echo $etiqBlog;?>
 								</div>
@@ -259,7 +259,8 @@
 								$salida = "";
 								
 								while ($fila = $ultimos->fetch_array()) {
-									$salida.= $crlf . '<li class="list-group-item"><a href="nota/'.$fila["Dominio"].'">'.$fila["Titulo"].'<br />'.$fila["Fecha"].'</a></li>';
+									//$salida.= $crlf . '<li class="list-group-item"><a href="nota/'.$fila["Dominio"].'">'.$fila["Titulo"].'<br />'.$fila["Fecha"].'</a></li>';
+									$salida.= $crlf . '<li class="list-group-item"><a href="nota/'.$fila["Dominio"].'">'.$fila["Titulo"].'</a></li>';
 								}
 								
 								echo $salida;

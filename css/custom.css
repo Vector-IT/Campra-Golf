@@ -9,6 +9,9 @@ body {
 background: #fff; /* Old browsers */
 }
 
+hr {
+    margin-top: 0px;
+}
 .navbar-brand img {
 	width: auto;
 	height: 99px;

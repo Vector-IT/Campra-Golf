@@ -178,10 +178,10 @@
 								$salida.= $crlf . '<article style="border-bottom: 1px dotted #ccc; padding-bottom: 20px;">';
 								$salida.= $crlf . '<h2><a href="nota/'.$fila["Dominio"].'">'.$fila["Titulo"].'</a></h2>';
 								$salida.= $crlf . '<div class="row">';
-								$salida.= $crlf . '<div class="col-sm-6 col-md-6">';
+								$salida.= $crlf . '<div class="col-sm-6 col-md-6" style="display: none;">';
 								$salida.= $crlf . '<span class="glyphicon glyphicon-bookmark"></span> ' . $fila["Etiquetas"];
 								$salida.= $crlf . '</div>';
-								$salida.= $crlf . '<div class="col-sm-6 col-md-6" style="text-align: right;">';
+								$salida.= $crlf . '<div class="col-sm-6 col-md-6" style="text-align: right; display: none;">';
 								$salida.= $crlf . '<span class="glyphicon glyphicon-pencil"></span> <a href="nota/'.$fila["Dominio"].'">'.$cantCome.' Comentarios</a>';
 								$salida.= $crlf . '&nbsp;&nbsp;<span class="glyphicon glyphicon-time"></span> ' . $fila["Fecha"];
 								$salida.= $crlf . '</div>';
@@ -242,7 +242,8 @@
 								$salida = "";
 								
 								while ($fila = $ultimos->fetch_array()) {
-									$salida.= $crlf . '<li class="list-group-item"><a href="nota/'.$fila["Dominio"].'">'.$fila["Titulo"].'<br />'.$fila["Fecha"].'</a></li>';
+									// $salida.= $crlf . '<li class="list-group-item"><a href="nota/'.$fila["Dominio"].'">'.$fila["Titulo"].'<br />'.$fila["Fecha"].'</a></li>';
+									$salida.= $crlf . '<li class="list-group-item"><a href="nota/'.$fila["Dominio"].'">'.$fila["Titulo"].'</a></li>';
 								}
 								
 								echo $salida;
