@@ -136,13 +136,12 @@
 		<div class="collapse navbar-collapse" id="navbar-collapse-2">
 			<ul class="nav navbar-nav center">
 				<li><a href="quienes-somos.php">Quienes Somos</a></li>
-				<li><a href="sponsors.php">Sponsors</a></li>
-				<li><a href="experiencia/clases-de-golf">Clases de Golf</a></li>
-				<li><a href="experiencia/campra-viajes">Viajes Golf</a></li>			
-				<li><a href="experiencia/school-of-golf">School of Golf</a></li>	
+				<li><a href="experiencia/instruccion-de-golf">Instrucción de Golf</a></li>	
+				<li><a href="experiencia/menores-y-juveniles">Menores y Juveniles</a></li>
+				<li><a href="experiencia/campra-viajes">Viajes Golf</a></li>
 				<li><a href="college-placement.php">College Placement</a></li>
-				<li><a href="novedades.php">News</a></li>
-<li><a href="http://campragolf.com/experiencia/notas-de-prensa">Notas de Prensa</a></li>
+				<li><a href="experiencia/campra-golf-tour">Campra Golf Tour</a></li>			
+				<li><a href="experiencia/clinicas-y-seminario">Clínicas y Seminarios</a></li>	
 				<li style="border-right: none !important;"><a href="contacto.php">Contacto</a></li>	
 			</ul>
 		</div>

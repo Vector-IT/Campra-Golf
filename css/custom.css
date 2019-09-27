@@ -1334,3 +1334,9 @@ h4 {
         font-size: 13px;
     }
 }
+/* INSTAFEED */
+#instafeed a {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}

@@ -126,7 +126,29 @@
 			@import url('fonts/MyriadWebPro-Italic.css');
 			@import url('fonts/MyriadWebPro-Regular.css');
 		</style>
+					<?php
+
+include_once 'header-links.php';
+
+?>
 	</head>
+			<!-- Facebook Pixel Code -->
+			<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window, document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '1345305482241846');
+		fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+		src="https://www.facebook.com/tr?id=1345305482241846&ev=PageView&noscript=1"
+		/></noscript>
+		<!-- End Facebook Pixel Code -->
 	<body>
 
 		<div class="wrapper top-style">
@@ -150,7 +172,7 @@
 					<div class="col-md-1"></div>
 					<div class="col-md-7" style="padding-top:0px !important;">
 						<p class="intro"><?php echo str_replace($crlf, "<br>", $descTour);?></p>
-						<img class="img-responsive" src="<?php echo $imagTour;?>" width="666" height="auto" alt="">
+						<img class="img-responsive" src="<?php echo $imagTour;?>" width="100%" height="auto" alt="" style="padding: 15px;">
 					</div>
 					<div class="col-md-3" >
 						<div id="detalle-viaje">

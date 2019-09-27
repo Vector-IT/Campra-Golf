@@ -144,6 +144,11 @@
 			@import url('fonts/MyriadWebPro-Italic.css');
 			@import url('fonts/MyriadWebPro-Regular.css');
 		</style>
+					<?php
+
+include_once 'header-links.php';
+
+?>
 	</head>
 	<body>
 
