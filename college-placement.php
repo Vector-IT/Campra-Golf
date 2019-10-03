@@ -113,11 +113,15 @@ include_once 'header-links.php';
             <div class="row">
                <div class="col-md-10 col-md-offset-1" style="margin-bottom: 0px; ">
                   <div class="col-md-12">
+
                      <p>Servicio de búsqueda y gestión de cupos y becas deportivas en universidades de los Estados Unidos. <br>
                         Nuestro objetivo es encontrar la mejor opción deportiva, académica y financiera para cada cliente.Para ello, realizamos una promoción personalizada a fines de encontrar la mejor oportunidad para cada jugador. 
                      </p>
                      <p>Nuestro staff comprende perfectamente la responsabilidad que implica asistir a jóvenes y sus familias en este proceso de búsqueda universitaria. Por eso nuestro servicio garantiza acompañamiento y asistencia individual en cada etapa del proceso.</p>
 					 <p >En Campra Golf nos apasiona la posibilidad de que jóvenes golfistas puedan continuar participando en el deporte que aman y al mismo tiempo puedan estudiar, crecer académicamente y recibir un título universitario.</p>
+
+                <iframe  style="max-width: 100%; margin: 20px auto; display:block;" width="768" height="420" src="https://www.youtube-nocookie.com/embed/Oifvr7J9bVw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                      <p><strong>Para mayor información contactarse via e-mail a <a href="mailto:collegeplacement@campragolf.com?Subject=Consulta%20Web" target="_top">collegeplacement@campragolf.com</a> o telefónicamente a +54 9 351 6009597</strong></p>
                   </div>
                   <div class="col-md-12" style="margin-top:20px;"><img class="img-responsive" src="images/college-placement1.jpg" width="100%" height="auto"></div>

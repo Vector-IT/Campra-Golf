@@ -95,7 +95,7 @@ include_once 'header-links.php';
                      Campra Golf trae a Córdoba, Argentina y América Latina una academia de golf de jerarquía mundial que crea un espacio de encuentro y aprendizaje para golfistas de todos los niveles.                
                   </p>
                   <br/>
-                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/GMKPeZ7x1Y8?showinfo=0&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/jYa6_MIfdkM?showinfo=0&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                </div>
             </div>
          </div>
