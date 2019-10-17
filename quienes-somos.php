@@ -90,9 +90,13 @@ include_once 'header-links.php';
             <div id="quienes-somos" class="row">
                <div class="col-md-10 col-md-offset-1">
                   <h1 style="text-align: center;">Academia Campra Golf</h1>
-                  <p style="text-align: center;">Orientado a golfistas amateurs, profesionales, sociales, empresariales y a quienes se quieran iniciar en el deporte, <span style="color: #000;  font-family: 'HelveticaNeueLTStd-Cn' !important;">Campra Golf</span> - Pepa Campra y su excelente staff de instructores - vuelcan todo su conocimiento y experiencia en un espacio de aprendizaje equipado con tecnología de última línea.<br/><br/>
-                     Campra Golf cuenta con las mejores herramientas y softwares en el mercado - cámaras de video de alta definición, Boditrak, Trackman, V1, K-Vest & Sam Putt Lab - mediante las cuales se pueden analizar diversos aspectos del swing y el juego de manera precisa, así como también realizar fittings de palos.    <br/>  <br/> 
-                     Campra Golf trae a Córdoba, Argentina y América Latina una academia de golf de jerarquía mundial que crea un espacio de encuentro y aprendizaje para golfistas de todos los niveles.                
+                  <p style="text-align: center;">Somos un equipo de profesionales apasionados por el golf dedicados a brindar experiencias únicas que comprenden el aprendizaje y el disfrute del deporte. <br/><br/>
+
+La instrucción de golf es nuestro enfoque principal. Somos una academia de enseñanza pensada para golfistas de todos los niveles, desde aficionados que se quieren iniciar en el deporte a profesionales que compiten en giras internacionales. Contamos con instructores que personalizan la enseñanza para lo que cada golfista necesita y contamos también con tecnología de última línea que nos permite analizar diversos aspectos del juego de manera precisa. <br/><br/>
+
+Acompañar a menores y juveniles en el camino del deporte es una de nuestras mayores ambiciones. Ofrecemos programas específicos para distintas etapas del desarrollo deportivo y creamos oportunidades para disfrutar el proceso de aprendizaje y potenciar el rendimiento.<br/><br/> 
+
+Nuestro enfoque también está en crear experiencias para golfistas que buscan aprovechar la veta recreativa del deporte. Armamos programas de viaje de golf a destinos nacionales e internacionales. Ofrecemos programas únicos y creamos vivencias memorables para nuestros clientes.               
                   </p>
                   <br/>
                   <iframe width="100%" height="500" src="https://www.youtube.com/embed/jYa6_MIfdkM?showinfo=0&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
